@@ -1,0 +1,22 @@
+[
+	{
+		"id": "M01",
+		"title": "Thor Ragnarok",
+		"image": "/images/m01.jpg"
+	},
+	{
+		"id": "M02",
+		"title": "Ant Man",
+		"image": "/images/m02.jpg"
+	},
+	{
+		"id": "M03",
+		"title": "Dare Devil",
+		"image": "/images/m03.jpg"
+	},
+	{
+		"id": "M04",
+		"title": "Guardians of the galaxy 2",
+		"image": "/images/m04.jpg"
+	}
+]
