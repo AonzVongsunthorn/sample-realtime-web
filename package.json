@@ -1,7 +1,7 @@
 {
   "name": "sample-realtime-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample realtime web application using Firebase",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,13 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/AonzVongsunthorn/sample-realtime-web.git"
   },
-  "author": "Jaturong (Aonz)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AonzVongsunthorn/sample-realtime-web/issues"
-  },
-  "homepage": "https://github.com/AonzVongsunthorn/sample-realtime-web#readme",
+  "author": "Jaturong (Aonz) Vongsunthorn",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": ">= 1.14.2",
+    "express": "^4.14.0",
+    "firebase": "^3.5.2"
   }
 }

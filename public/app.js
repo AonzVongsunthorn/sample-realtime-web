@@ -4,7 +4,7 @@ angular.module('app', [])
 		return {
 			getMovies: function() {
 				return $q(function(resolve, reject) {
-					$http.get('movies.json')
+					$http.get('../json/movies.json')
 						.then(function(res) {
 							resolve(res.data);
 						})
@@ -13,7 +13,7 @@ angular.module('app', [])
 
 			getSeats: function() {
 				return $q(function(resolve, reject) {
-					$http.get('seats.json')
+					$http.get('../json/seats.json')
 						.then(function(res) {
 							resolve(res.data);
 						});
