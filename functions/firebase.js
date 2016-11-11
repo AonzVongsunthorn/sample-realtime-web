@@ -1,3 +1,5 @@
-/**
- * Created by AonzKatzy on 11/12/2016.
- */
+exports.init = function () {
+    var firebase = require("firebase");
+    var config = require("../config");
+    firebase.initializeApp(config.firebaseConfig);
+};
